@@ -54,7 +54,7 @@
           imageRatio = (imageWidth / imageHeight);
           // Resize image with the box height
           $image.css({
-            height: photoBoxHeight,
+            height: photoBoxHeight / 8,
             width: (photoBoxHeight * imageRatio)
           });
           // Center image in his box
